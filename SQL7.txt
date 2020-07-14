@@ -1,0 +1,55 @@
+﻿信息系统与数据库技术练习7答题卡
+
+班级：19级计算机信息管理1班     
+姓名：黄奕杭    
+学号：20190307114     
+
+注：请将答案放置在序号下方。*/
+
+（一）
+1.
+USE Companys
+
+
+2.
+INSERT Employee(Eid,Ename,Esex,Bonus,BasePay)
+VALUES(G101,'张太华'),
+      
+
+
+3.
+      (SG01,'许世芳',0,3456.78,4567.23),
+
+
+
+4.
+      (SG02,'秦英俊'),
+      (SG03,'刘桂兰'),
+      (SG04,'伍陆齐')
+
+
+5.
+DELETE Employee
+WHERE Esex='0' AND Bonus>=3426.23
+
+
+6.
+ALTER TABLE Department
+ADD area(10,2) NOT NULL
+
+7.
+ALTER TABLE Department
+ALTER COLUMN Dname VARCHAR(22)
+
+8.
+ALTER TABLE Department
+DROP COLUMN Manager
+
+9.
+EXEC sp_rename 'Department.area',areas
+
+10.
+EXEC sp_help Department
+
+11.
+DROP TABLE Department
